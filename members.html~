@@ -28,8 +28,9 @@ header-img: "img/home-bg.jpg"
 
 	{% if member.bio %} 
 	{{ member.bio }}
-	{% endif %}
 	<a href="http://example.com/files/myfile.pdf" target="_blank">Download</a>
+	{% endif %}
+	
 	<hr>
 
 {% endif %}{% endfor %}
