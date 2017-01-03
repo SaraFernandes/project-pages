@@ -1,9 +1,0 @@
----
-layout: project
-title: "Postagens"
-description: "Nesta página, tentaria contribuir com minhas postagens neste blog.
-
-"
-header-img: "img/home-bg.jpg"
-category: project
----
