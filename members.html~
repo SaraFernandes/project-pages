@@ -2,20 +2,20 @@
 layout: page
 title: "Sara Fernandes"
 description: "Quem é?"
-header-img: "img/home-bg.jpg"
+header-img: "img/empresa.jpg"
 ---
 <hr>
 
 {% for member in site.data.members %} {% if member.visible == true %}
 
 	<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important">
-	
+
 	<h1>{{ member.name }}</h1>
-	
+
 	<h2>{{ member.role }}</h2>
-	
-	{% if member.github %} 
-	<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/linkedin.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
+
+	{% if member.github %}
+	<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/linkedin.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span>
 	{% endif %}
 	{% if member.gplus %}
 	<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/icon-lattes.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
@@ -23,10 +23,10 @@ header-img: "img/home-bg.jpg"
 	{% if member.url %}
 	<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
 	{% endif %}
-	
+
 	</br>
 
-	{% if member.bio %} 
+	{% if member.bio %}
 	{{ member.bio }}
 	 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="{{ "/files/cv.pdf"}}" class="btn btn-lg btn-outline">
@@ -34,8 +34,7 @@ header-img: "img/home-bg.jpg"
                     </a>
          </div>
 	{% endif %}
-	
+
 	<hr>
 
 {% endif %}{% endfor %}
-

@@ -2,7 +2,7 @@
 layout: page
 title: "Sobre"
 description: "O que é?"
-header-img: "img/home-bg.jpg"
+header-img: "img/empresa.jpg"
 ---
 
 Olá!! Tudo bem?
