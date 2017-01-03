@@ -1,8 +1,8 @@
 ---
 layout:     notebook
 title:      New Notebook
-author:     Ahmet Cecen
-tags: 		  Posts
+author:     Sara Fernandes
+tags: 		  Postagens
 subtitle:   Showcasing Jupyter Notebook Translator Layout
 category:  project1
 
