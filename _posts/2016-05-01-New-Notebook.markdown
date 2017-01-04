@@ -1,9 +1,9 @@
 ---
 layout:     notebook
-title:      New Notebook
+title:      Padrão arquitetural MVC
 author:     Sara Fernandes
 tags: 		  Postagens
-subtitle:   Showcasing Jupyter Notebook Translator Layout
+subtitle:   Como funciona
 category:  project1
 
 notebookfilename: intro
