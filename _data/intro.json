@@ -4,52 +4,11 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Meet PyMKS\n",
     "\n",
     "Em 1979, Trygve Reenskaug surgiu com uma nova arquitetura para o desenvolvimento de aplicações interativas. Em seu design, as aplica ̧c o  ̃ es foram divididas em trˆes tipos de componentes: models, views e controllers - MVC (THEORY.html)."
    ]
   },
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "metadata": {
-    "collapsed": false
-   },
-   "outputs": [],
-   "source": [
-    "%matplotlib inline\n",
-    "%load_ext autoreload\n",
-    "%autoreload 2\n",
-    "\n",
-    "import numpy as np\n",
-    "import matplotlib.pyplot as plt"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Quantify Microstructures using 2-Point Statistics\n",
-    "\n",
-    "Lets make two dual phase microstructures with different morphologies."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 2,
-   "metadata": {
-    "collapsed": false
-   },
-   "outputs": [],
-   "source": [
-    "from pymks.datasets import make_microstructure\n",
-    "\n",
-    "X_1 = make_microstructure(n_samples=1, grain_size=(25, 25))\n",
-    "X_2 = make_microstructure(n_samples=1, grain_size=(15, 95))\n",
-    "\n",
-    "X = np.concatenate((X_1, X_2))"
-   ]
-  },
+
   {
    "cell_type": "markdown",
    "metadata": {},
