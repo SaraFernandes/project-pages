@@ -1,5 +1,5 @@
 ---
-layout:     notebook
+layout:     default
 title:      Padrão arquitetural MVC
 author:     Sara Fernandes
 tags: 		  Postagens
