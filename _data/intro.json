@@ -25,13 +25,7 @@
     "2-Point statistics provide an object way to compare microstructures, and have been shown as an effective input to machine learning methods."
    ]
   },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Predict Homogenized Properties"
-   ]
-  },
+
   {
    "cell_type": "markdown",
    "metadata": {},
@@ -105,13 +99,6 @@
     "Looks good.\n",
     "\n",
     "The `MKSHomogenizationModel` can be used to predict effective properties and processing-structure evolutions."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Predict Local Properties"
    ]
   },
   {
