@@ -1,9 +1,12 @@
-
+{
+ "cells": [
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Throughout PyMKS `X` is used to represent microstructures. Now that we have made the two microstructures, lets take a look at them."
+    "# Meet PyMKS\n",
+    "\n",
+    "In this short introduction, we will demonstrate the functionality of PyMKS to compute 2-point statistics in order to objectively quantify microstructures, predict effective properties using homogenization and predict local properties using localization. If you would like more technical details amount any of these methods please see the [theory section](THEORY.html)."
    ]
   },
 
