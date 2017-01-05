@@ -5,7 +5,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Let's take a look at the two autocorrelations and the cross-correlation for these two microstructures."
+    "Em 1979, Trygve Reenskaug surgiu com uma nova arquitetura para o desenvolvimento de aplicações interativas. Em seu design, as aplicações foram divididas em três tipos de componentes: models, views e controllers - MVC"
    ]
   },
 
@@ -13,7 +13,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "2-Point statistics provide an object way to compare microstructures, and have been shown as an effective input to machine learning methods."
+    "De acordo com Truel em \cite{truel:8}, o MVC é compreendido como um padrão arquitetural que pode ser utilizado para representar e entender a comunicação existente entre os componentes de uma aplicação, seja para web, desktop ou dispositivos móveis. Esse padrão define claramente a separação de responsabilidades e a comunicação entre os componentes de uma aplicação."
    ]
   },
 
