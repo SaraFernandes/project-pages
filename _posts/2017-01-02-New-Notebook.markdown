@@ -14,8 +14,12 @@ visualworkflow: true
 
 Em 1979, Trygve Reenskaug surgiu com uma nova arquitetura para o desenvolvimento de aplicações interativas. Em seu design, as aplicações foram divididas em três tipos de componentes: models, views e controllers - MVC.
 
+De acordo com Truel em [12], o MVC  ́e compreendido como um padrão arquitetural que pode ser utilizado para representar e entender a comunicação existente entre os componentes de uma aplica ̧c a  ̃ o, seja para web, desktop ou dispositivos m ́oveis. Esse padrão define claramente a separa ̧c ̃ao de responsabilidades e a comunicação entre os componentes de uma aplicação.
+
 ## Images
+![Description](http://projectpages.github.io/project-pages/img/mvc.png)
 
-Hold your pointer clicked over the image to expand the view.
+## HTML
 
-![Description](http://projectpages.github.io/project-pages/img/Logo_Fairy_Tail_right.png)
+A camada de visualização (View)  ́e responsável pela interface com o usuário e controla as entradas e saídas gráficas e textuais. O modelo (Model) controla o comportamento e os dados do domínio da aplicação respondendo as solicitações e instruções para mudar seu estado, além de conter as regras de negócio. O controle (Controller) controla as solicitações
+do usuário repassando as mesmas para o modelo ou para a visualiza ̧c ̃ao adequadamente. Esta divisão em camadas tem o objetivo de aumentar a flexibilidade e a reuso do códico.
