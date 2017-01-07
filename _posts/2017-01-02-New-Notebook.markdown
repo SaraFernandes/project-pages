@@ -6,8 +6,8 @@ tags: 		  Postagens
 subtitle:   Como funciona
 category:  project1
 
-visualworkflow: true
 ---
+<!--visualworkflow: true -->
 
 Em 1979, Trygve Reenskaug surgiu com uma nova arquitetura para o desenvolvimento de aplicações interativas. Em seu design, as aplicações foram divididas em três tipos de componentes: *models*, *views* e *controllers* - MVC.
 
