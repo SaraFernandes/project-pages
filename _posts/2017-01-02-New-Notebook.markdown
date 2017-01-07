@@ -17,7 +17,7 @@ Em 1979, Trygve Reenskaug surgiu com uma nova arquitetura para o desenvolvimento
 De acordo com Truel em [12], o MVC  ́e compreendido como um padrão arquitetural que pode ser utilizado para representar e entender a comunicação existente entre os componentes de uma aplicação, seja para web, desktop ou dispositivos móveis. Esse padrão define claramente a separa ̧c ̃ao de responsabilidades e a comunicação entre os componentes de uma aplicação.
 
 ## Images
-![Description](http://projectpages.github.io/project-pages/img/mvc.png)
+![Description](http://sarafernandes.github.io/img/mvc.png)
 
 ## HTML
 
