@@ -10,8 +10,6 @@ notebookfilename: intro
 visualworkflow: true
 ---
 
-## HTML
-
 Em 1979, Trygve Reenskaug surgiu com uma nova arquitetura para o desenvolvimento de aplicações interativas. Em seu design, as aplicações foram divididas em três tipos de componentes: models, views e controllers - MVC.
 
 De acordo com Truel em [12], o MVC  ́e compreendido como um padrão arquitetural que pode ser utilizado para representar e entender a comunicação existente entre os componentes de uma aplicação, seja para web, desktop ou dispositivos móveis. Esse padrão define claramente a separação de responsabilidades e a comunicação entre os componentes de uma aplicação.
