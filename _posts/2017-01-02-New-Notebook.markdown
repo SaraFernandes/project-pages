@@ -6,7 +6,6 @@ tags: 		  Postagens
 subtitle:   Como funciona
 category:  project1
 
-notebookfilename: intro
 visualworkflow: true
 ---
 
