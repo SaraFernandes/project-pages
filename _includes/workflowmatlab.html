@@ -27,26 +27,26 @@ graph TB
 
 		<!-- If I am the First in Sequence Nowhere to Connect -->
 		{% if smallheadercount == 0 %}
-		
+
 			{% assign currentheader = text[sub] | newline_to_br | split:"<br />" | first | split:">" %}
 			{% assign currentheader = currentheader[1] | split:"<" | first %}
 			{% assign currentsub = sub %}
 			{% assign smallheadercount = smallheadercount | plus:1 %}
 
-			node{{ sub }}({{ currentheader }}) 
-			
+			node{{ sub }}({{ currentheader }})
+
 			click node{{ sub }} "{{ sub | prepend:'#' }}"
 
 		{% else %}
-		
+
 			{% assign prevheader = currentheader %}
 			{% assign prevsub = currentsub %}
 			{% assign currentheader = text[sub] | newline_to_br | split:"<br />" | first | split:">" %}
-			{% assign currentheader = currentheader[1] | split:"<" | first %}	
+			{% assign currentheader = currentheader[1] | split:"<" | first %}
 			{% assign currentsub = sub %}
-			
+
 			node{{ prevsub }}({{ prevheader }}) --> node{{ sub }}({{ currentheader }})
-			
+
 			click node{{ sub }} "{{ sub | prepend:'#' }}"
 
 		{% endif %}
@@ -62,7 +62,7 @@ graph TB
 {% endcapture %}
 
 <!-- Make the Graph -->
-<h1> Workflow Overview </h1>
+<!--<h1> Workflow Overview </h1><!--
 
 <!-- Strip HTML and Seperate at Line Breaks -->
 {% assign Blocks = MermaidBlock | strip_html | newline_to_br | split:"<br />" %}
