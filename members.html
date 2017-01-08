@@ -25,13 +25,13 @@ header-img: "img/empresa.jpg"
 
 	{% if member.bio %}
 	{{ member.bio }}
-	 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="{{ "/files/CV.pdf"}}" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Curriculum
-                    </a>
-         </div>
-	{% endif %}
 
+	{% endif %}
+	<div class="col-lg-8 col-lg-offset-2 text-center">
+									 <a href="{{ "/files/CV.pdf"}}" class="btn btn-lg btn-outline">
+											 <i class="fa fa-download"></i> Download Curriculum
+									 </a>
+				</div>
 	<hr>
 
 {% endif %}{% endfor %}
