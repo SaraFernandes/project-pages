@@ -1,7 +1,7 @@
 ---
 layout:     notebook
 title:      Evolução do desenvolvimento web
-author:     Sara P. Fernandes
+author:     Sara Fernandes
 tags: 		  Postagens
 subtitle:   Internet em curto prazo
 category:   project1
