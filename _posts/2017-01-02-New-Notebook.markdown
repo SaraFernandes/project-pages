@@ -1,7 +1,7 @@
 ---
 layout:     notebook
 title:      Padrão arquitetural MVC
-author:     Sara Fernandes
+author:     Sara P. Fernandes
 tags: 		  Postagens
 subtitle:   Como funciona
 category:  project1
