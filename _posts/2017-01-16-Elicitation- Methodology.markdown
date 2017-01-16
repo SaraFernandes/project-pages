@@ -1,9 +1,9 @@
 ---
 layout:     notebook
-title:      Elicitação de requisitos
+title:      Metodologia de elicitação de requisitos
 author:     Sara Fernandes
-tags: 		  Postagens
-subtitle:   O que é?
+tags: 	    Postagens
+subtitle:   Como funciona (Visão geral)
 category:  project1
 
 ---
