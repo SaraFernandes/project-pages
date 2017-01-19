@@ -27,6 +27,8 @@ Os requisiotos podem ser classificados em três tipos basicamente, conforme a im
 2. Requisitos funcionais e não-funcionais: Os requisitos funcionais para um sistema descrevem a funcionalidade ou os serviços que
 se espera que o sistema forneça. Já os requisitos não-funcionais são aqueles que não dizem respeito diretamente às funções específicas fornecidas pelo sistema. Eles podem estar relacionados a propriedades de sistema emergentes, como confiabilidade, tempo de resposta e espaço em disco.
 
+3. Como os requisitos funcionais e não-fuincionais serão efetivados, elaborados? Aí entra também a parte de modelagem dos requisitos.
+
 
 
 
