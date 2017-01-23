@@ -52,7 +52,7 @@ jQuery(function() {
         });
       } else {
         // If there are no results, let the user know.
-        $search_results.html('<li>Nenhum resultado encontrado.<br/>Please, verifique a ortografia, espaçamento...</li>');
+        $search_results.html('<li>Nenhum resultado encontrado.<br/>Por favor, verifique a ortografia, espaçamento...</li>');
       }
     });
   }
